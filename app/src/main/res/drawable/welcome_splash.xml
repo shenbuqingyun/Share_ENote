@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 底层白色 -->
+    <item android:drawable="@color/colorWelcome" />
+
+    <!-- 顶层Logo居中 -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher" />
+    </item>
+</layer-list>
+<!--新建本xml文件的时候 会弹出一个弹窗 提示是否要将本文件加入到github上进行版本控制
+点击确认之后 该文件在文件浏览器中的颜色变为绿色 意味新增但并没有进行版本控制-->
